@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Codystar:wght@300;400&family=Nothing+You+Could+Do&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*https://www.color-hex.com/color-palette/79660*/
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+
+#myName{
+font-family: "Cabin Sketch", sans-serif;
+font-weight: 700;
+color: #F6BBF0;
+letter-spacing:.2rem;
+font-size: 5rem;
+}
+
+#jobTitle{
+font-size: 2.5rem;
+color: darkgray;
+}
+
+.lead{
+text-shadow: 5px 2px 3px #000000;
+}
+
+#saySomething{
+font-family: "Nothing You Could Do", cursive;
+font-weight: 600;
+font-style: normal;
+color: #A0B900;
+font-size: 2rem;
+}
+
+#landing{
+height:80vh;
+background-color: #2f5c78;
+}
+
+#projects{
+background-color: #e9e3d3s;
+}
+
+#capstone{
+background-color: #9fc1c6;
+}
+
+#tools{
+min-height:10vh;
+background-color: #60b3d3;
+}
+
+#contact{
+background-color: #b48da8;
+}
+
+#footer{
+background-color: #d2afea;
+font-size: .8rem;
+}
+
+
+@media (max-width: 375px) {
+#saySomething{
+font-family: "Nothing You Could Do", cursive;
+font-weight: 300;
+font-style: normal;
+color: #ED7777;
+font-size: 1rem;
+}
+
+#myName{
+font-family: "Cabin Sketch", sans-serif;
+font-weight: 700;
+color: #C1E1C1;
+letter-spacing:.2rem;
+font-size: 1.5rem;
+}
+#jobTitle{
+font-size: 1.4rem; 
+}
+}
+
