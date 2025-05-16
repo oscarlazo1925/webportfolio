@@ -60,9 +60,9 @@ background-color: #d2afea;
 font-size: .8rem;
 }
 
-/*max-width: 375px*/
+/*max-width: 375px 414px*/
 
-@media (min-width: 414px) {
+@media (max-width: 428px) {
 #saySomething{
 font-family: "Nothing You Could Do", cursive;
 font-weight: 300;
@@ -82,4 +82,7 @@ font-size: 1.5rem;
 font-size: 1.4rem; 
 }
 }
+
+
+
 
