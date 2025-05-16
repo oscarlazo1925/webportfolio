@@ -61,6 +61,7 @@ font-size: .8rem;
 }
 
 /*max-width: 375px*/
+
 @media (max-width: 390px) {
 #saySomething{
 font-family: "Nothing You Could Do", cursive;
